@@ -1,0 +1,40 @@
+.container {
+    text-align: center;
+}
+
+.card {
+    border-color: lightslategray;
+}
+
+h1 {
+    margin: 20px 0;
+    color: darkslategray;
+}
+
+h2 {
+    color: lightslategrey;
+}
+
+@media (max-width: 576px) {
+    .card-deck>.card {
+        width: 100%;
+        flex-wrap: wrap;
+        flex: initial;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .card-deck>.card {
+        width: 43%;
+        flex-wrap: wrap;
+        flex: initial;
+    }
+}
+
+@media (min-width:992px) {
+    .card-deck>.card {
+        width: 29%;
+        flex-wrap: wrap;
+        flex: initial;
+    }
+}
